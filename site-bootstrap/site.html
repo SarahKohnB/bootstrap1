@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid bg-dark-subtle shadow-lg p-4 mb-5">
+      <h2 class="text-dark text-center">💻 Tech Store</h2>
+      <p class="fs-4 text-center">
+        Projeto utilizando todos os containers do bootstrap
+      </p>
+    </div>
+
+    <div
+      class="container card h-100 shadow bg-white-subtle rounded-4 shadow-4 shadow-lg p-4 mb-5"
+    >
+      <h2 class="text-primary">Quem Somos</h2>
+      <p>
+        Somos uma loja especializada em computadores, notebooks, acessórios e
+        tecnologia
+      </p>
+      <div class="alert alert-primary">
+        Este conteúdo está dentro de um <strong>.container.</strong>
+      </div>
+    </div>
+
+    <div
+      class="container-sm card h-100 shadow bg-success-subtle rounded-4 shadow-4 shadow-lg p-4 mb-5"
+    >
+      <h3 class="text-success text-center">Produtos em Destaque</h3>
+
+      <div class="row g-4">
+        <!--para deixar as imagens uma do lado da outra -->
+        <!--CARD 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Notebook Gamer</h5>
+              <p class="card-text">Alto desempenho para jogos e programação.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <button class="btn btn-success w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <!--FIM DO CARD 1-->
+
+        <!--CARD 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Monitor 27"</h5>
+              <p class="card-text">Tela Full HD para estudos e trabalho</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <button class="btn btn-success w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <!--FIM DO CARD 2-->
+
+        <!--CARD 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">Teclado Mecânico</h5>
+              <p class="card-text">RGB com switches mecânicos</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <button class="btn btn-success w-100">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <!--FIM DO CARD 3-->
+      </div>
+    </div>
+
+    <div class="container-md bg-warning-subtle rounded-4 shadow-4 p-4 mb-5">
+      <h2 class="text-warning">Tabela de Produtos</h2>
+
+      <table class="table">
+        <tbody>
+          <tr>
+            <th class="table-dark" scope="row">Produto</th>
+            <td class="table-dark"></td>
+            <th class="table-dark" scope="row">Preço</th>
+            <td class="table-dark"></td>
+            <th class="table-dark" scope="row">Estoque</th>
+          </tr>
+          <tr>
+            <td class="table-secondary">Notebook</td>
+            <td class="table-secondary"></td>
+            <td class="table-secondary">R$4.999</td>
+            <td class="table-secondary"></td>
+            <td class="table-secondary">12</td>
+          </tr>
+          <tr>
+            <td>Monitor</td>
+            <td></td>
+            <td>R$1.200</td>
+            <td></td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td class="table-secondary">Mouse Gamer</td>
+            <td class="table-secondary"></td>
+            <td class="table-secondary">R$250</td>
+            <td class="table-secondary"></td>
+            <td class="table-secondary">45</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container bg-info-subtle rounded-4 p-4 mb-5">
+      <h2 class="text-info">Nossos serviços</h2>
+
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="alert alert-info">🖥️ Montagem de PCs</div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="alert alert-info">🔧 Assistência Técnica</div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="alert alert-info">📦 Entrega</div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="alert alert-info">☁️ Backup em Nuvem</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container bg-body-secondary rounded-4 p-4 mb-5">
+      <h2 class="text-secondary">Fale Conosco</h2>
+
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <label class="form-label">Nome</label>
+          <input type="text" class="form-control" />
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" />
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <label class="form-label">Mensagem</label>
+          <textarea class="form-control" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Enviar</button>
+      </div>
+    </div>
+
+    <div
+      class="container-xxl bg-dark border rounded-4 shadow-4 p-4 mb-5 shadow-lg"
+    >
+      <h2 class="text-light">Quem Somos</h2>
+      <p class="text-light">Projeto desenvolvido ultilizando Bootstrap 5.</p>
+
+      <div class="alert alert-light">
+        Este rodapé ultiliza <b>.container-xxl</b>. ideal para telas muito
+        frandes <br />
+      </div>
+    </div>
+  </body>
+</html>
