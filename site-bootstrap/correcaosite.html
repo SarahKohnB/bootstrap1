@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store - Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+</head>
+<body class="bg-light">
+    <!--=====================================================================================-->
+                                    <!--BANNER-->
+    <!--=====================================================================================-->
+
+    <div class="container-fluid bg-dark text-white text-center py-5">
+        <h1 class="display-3">💻 Tech Store</h1>
+        <p class="lead">
+             Projeto utilizando todos os containers do bootstrap
+        </p>
+    </div>
+
+    <!--=====================================================================================-->
+                                    <!--SOBRE-->
+    <!--=====================================================================================-->
+
+    <div class="container bg-white shadow-lg rounded-4 p-5 my-5">
+        <h2 class="text-primary">Quem Somos</h2>
+        <p>
+        Somos uma loja especializada em computadores, notebooks, acessórios e
+        tecnologia
+        </p>
+        <div class="alert alert-primary">
+            Este conteúdo está dentro de um <strong>.container.</strong>
+        </div>
+    </div>
+    <!--=====================================================================================-->
+                                    <!--CARDS-->
+    <!--=====================================================================================-->
+    
+    <div class="container-sm bg-success-subtle rounded-4 p-4 mb-5">
+        <h2 class="text-success text-center mb-4">
+            Produtos em Destaque
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/400/250?1" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Notebook Gamer</h5>
+                        <p>
+                            Alto desempenho para jogos e programação.
+                        </p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/400/250?2" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Monitor 27"</h5>
+                        <p>
+                            Tela Full HD para estudos e trabalho.
+                        </p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/400/250?3" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Teclado Mecânico</h5>
+                        <p>
+                            RGB com switches mecânicos
+                        </p>
+                        <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=====================================================================================-->
+                                    <!--TABELA-->
+    <!--=====================================================================================-->
+
+    <div class="container-md bg-warning-subtle rounded-4 p-4 mb-5">
+        <h2 class="text-warning">Tabela de Produtos</h2>
+        <table class="table table-striped table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Produtos</th>
+                    <th>Preços</th>
+                    <th>Estoque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Notebook</td>
+                    <td>R$4.999</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>R$1.200</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Mouse Gamer</td>
+                    <td>R$250</td>
+                    <td>45</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--=====================================================================================-->
+                                    <!--SERVIÇOS-->
+    <!--=====================================================================================-->
+
+    <div class="container-lg bg-info-subtle rounded-4 p-5 mb-5">
+        <h2 class="text-info">Nossos Serviços</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    🖥️ Montagem de PCs
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    🔧 Assistência Técnica
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    📦 Entrega
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="alert alert-info">
+                    ☁️ Backup em Nuvem
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=====================================================================================-->
+                                    <!--FALE CONOSCO-->
+    <!--=====================================================================================-->
+
+    <div class="container-xl bg-secondary-subtle rounded-4 p-5 mb-4">
+        <h2 class="text-secondary">Fale Conosco</h2>
+            <div class="mb-3">
+                <label class="form-label">
+                    Nome
+                </label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">
+                    Email
+                </label>
+                <input email="email" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">
+                    Mensagem
+                </label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <button class="btn btn-secondary">Enviar</button>
+    </div>
+    <!--=====================================================================================-->
+                                    <!--RODAPE-->
+    <!--=====================================================================================-->  
+    <div class="container-xxl bg-dark text-white rounded-top-4 p-5">
+        <h2>Tech Store</h2>
+        <p>
+            Projeto Desenvolvido utilizando bootstrap 5
+        </p>
+        <div class="alert alert-light">
+           Este rodapé utiliza <strong>.container-xxl</strong>, ideal para telas muito
+           grandes.
+        </div>
+    </div>
+</body>
+</html>
